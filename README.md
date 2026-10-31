@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" alt="Ssmys3" width="100%" />
+  <img src="./banner.png" alt="Ssmys3" width="100%" />
 </p>
 
 <p align="center">
@@ -21,7 +21,6 @@ Most of the time I build Python backends, mess with SQL / data pipelines, or pro
 
 | repo | what it is | stack |
 | :--- | :--- | :--- |
-| [**support-copilot**](https://github.com/Ssmys3) | Multilingual (`RU`/`KK`/`UZ`) support triage & rule-citation engine for *Grand Mobile* (`Decentrathon 6.0`). Handles broken `cp1251` Kazakh encoding, `0%` rule hallucinations, `1.3 ms` p95 on CPU. | `Python` `FastAPI` `scikit-learn` |
 | [**platform-game**](https://github.com/Ssmys3/platform-game) | 2D platformer prototype with custom movement & collision logic. | `Python` `Pygame` |
 | [**a-regular-pong**](https://github.com/Ssmys3/a-regular-pong) | Arcade Pong, except with custom physics and gameplay modifiers. | `Python` `Pygame` |
 | [**Not_TicTacToe**](https://github.com/Ssmys3/Not_TicTacToe) | Extended grid strategy variant of Tic-Tac-Toe with custom win-state evaluation. | `Python` |
