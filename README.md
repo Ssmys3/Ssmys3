@@ -1,9 +1,3 @@
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,sqlite,go,js,react,figma,linux,arch,neovim,git&theme=dark" alt="stack" />
-</p>
-
----
-
 ### about
 
 3rd-year CS student living inside **Arch Linux + Hyprland + Neovim**.  
