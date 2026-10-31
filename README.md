@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="./banner.png" alt="Ssmys3" width="100%" />
-</p>
-
-<p align="center">
   <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,sqlite,go,js,react,figma,linux,arch,neovim,git&theme=dark" alt="stack" />
 </p>
 
