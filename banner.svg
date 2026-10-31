@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" width="100%" height="220">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b"/>
+      <stop offset="100%" stop-color="#121217"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1c1c24" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#e4e4e7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#18181b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="920" height="220" rx="10" fill="url(#bg)" stroke="#23232b" stroke-width="1"/>
+  <rect width="920" height="220" rx="10" fill="url(#grid)" opacity="0.65"/>
+
+  <!-- Minimalist geometric accent -->
+  <g transform="translate(680, 36)" opacity="0.85">
+    <rect x="0" y="0" width="184" height="148" rx="6" fill="#0d0d11" stroke="#272730" stroke-width="1"/>
+    <circle cx="16" cy="14" r="3" fill="#3f3f46"/>
+    <circle cx="26" cy="14" r="3" fill="#3f3f46"/>
+    <circle cx="36" cy="14" r="3" fill="#3f3f46"/>
+    <line x1="0" y1="26" x2="184" y2="26" stroke="#22222a" stroke-width="1"/>
+    <text x="14" y="48" fill="#52525b" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">$ status --profile</text>
+    <text x="14" y="68" fill="#e4e4e7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">role: backend / ml</text>
+    <text x="14" y="86" fill="#94949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">stack: py · go · linux</text>
+    <text x="14" y="104" fill="#34d399" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">p95_latency: 2.2ms</text>
+    <text x="14" y="122" fill="#71717a" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">loc: kazakhstan</text>
+  </g>
+
+  <!-- Left Content -->
+  <g transform="translate(44, 58)">
+    <g transform="translate(0, 0)">
+      <circle cx="5" cy="-4" r="3.5" fill="#34d399"/>
+      <text x="16" y="0" fill="#94949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1.5">SSMYs3 // ASSEMGUL AMANBEK</text>
+    </g>
+
+    <text x="0" y="42" fill="#f4f4f5" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="28" font-weight="600" letter-spacing="-0.5">
+      Software &amp; Applied ML Engineer
+    </text>
+
+    <text x="0" y="72" fill="#94949e" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="14">
+      Building fast backend services, deterministic NLP pipelines, and minimal tools.
+    </text>
+
+    <rect x="0" y="94" width="380" height="1.5" fill="url(#fade)"/>
+
+    <text x="0" y="118" fill="#71717a" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
+      Python · FastAPI · scikit-learn · Go · Linux (Arch / Hyprland)
+    </text>
+  </g>
+</svg>
