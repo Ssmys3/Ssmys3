@@ -1,31 +1,29 @@
 <p align="center">
-  <img src="./banner.svg" alt="Assemgul Amanbek — Ssmys3" width="100%" />
+  <img src="./banner.svg" alt="Ssmys3" width="100%" />
 </p>
 
-### Focus
-
-- **Applied NLP & Triage Systems** — low-latency text classification (`TF-IDF`, linear models, hybrid rule/RAG engines) with strict zero-hallucination guarantees.
-- **Backend Engineering** — clean REST APIs (`FastAPI`, `Pydantic`, `Uvicorn`), deterministic pipelines, and lightweight web workspaces.
-- **Environment** — Linux (`Arch` / `Hyprland` / `Neovim`), automation, and algorithmic problem solving in `Python` & `Go`.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,sqlite,go,js,react,figma,linux,arch,neovim,git&theme=dark" alt="stack" />
+</p>
 
 ---
 
-### Selected Work
+### about
 
-| Project | Stack | Description |
+3rd-year CS student living inside **Arch Linux + Hyprland + Neovim**.  
+Most of the time I build Python backends, mess with SQL / data pipelines, or prototype small 2D games and bots just to see how they work under the hood.
+
+- **currently into:** Data Engineering, OOP & backend architecture (`FastAPI`, `PostgreSQL`), UI design in `Figma`, and Applied NLP.
+
+---
+
+### stuff i built
+
+| repo | what it is | stack |
 | :--- | :--- | :--- |
-| **Grand Mobile Support Copilot** *(Decentrathon 6.0)* | `Python` `FastAPI` `scikit-learn` | Multilingual (`RU`/`KK`/`UZ`) support triage & RAG rule-citation service. `95.8%` accuracy, `0%` rule hallucinations, `2.25 ms` p95 latency on CPU. |
-| [**a-regular-pong**](https://github.com/Ssmys3/a-regular-pong) | `Python` `Pygame` | Arcade Pong implementation with custom physics and gameplay mechanics. |
-| [**Not_TicTacToe**](https://github.com/Ssmys3/Not_TicTacToe) | `Python` | Extended grid strategy game with custom win-state logic. |
-| [**Daily.meme_bot**](https://github.com/Ssmys3/Daily.meme_bot) | `Python` `Bot API` | Automated media delivery and scheduling bot. |
+| [**support-copilot**](https://github.com/Ssmys3) | Multilingual (`RU`/`KK`/`UZ`) support triage & rule-citation engine for *Grand Mobile* (`Decentrathon 6.0`). Handles broken `cp1251` Kazakh encoding, `0%` rule hallucinations, `1.3 ms` p95 on CPU. | `Python` `FastAPI` `scikit-learn` |
+| [**platform-game**](https://github.com/Ssmys3/platform-game) | 2D platformer prototype with custom movement & collision logic. | `Python` `Pygame` |
+| [**a-regular-pong**](https://github.com/Ssmys3/a-regular-pong) | Arcade Pong, except with custom physics and gameplay modifiers. | `Python` `Pygame` |
+| [**Not_TicTacToe**](https://github.com/Ssmys3/Not_TicTacToe) | Extended grid strategy variant of Tic-Tac-Toe with custom win-state evaluation. | `Python` |
+| [**Daily.meme_bot**](https://github.com/Ssmys3/Daily.meme_bot) | Automated media delivery & scheduling bot. | `Python` `Telegram API` |
 
----
-
-### Toolchain
-
-```text
-languages   :: Python, Go, SQL, JavaScript / HTML / CSS
-ml & data   :: scikit-learn, NumPy, JSONL streaming, TF-IDF / RAG indexing
-backend     :: FastAPI, Pydantic, Uvicorn, REST / OpenAPI
-system      :: Arch Linux, Hyprland, Git, Make, SSH / WireGuard
-```
